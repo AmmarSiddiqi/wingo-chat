@@ -1,0 +1,18 @@
+.leftbar__container {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-right: 1px solid rgb(165, 165, 165);
+  .leftbar_scroll {
+    overflow: scroll;
+    overflow-x: hidden;
+    &::-webkit-scrollbar-thumb {
+      border-radius: 20%;
+      background-color: grey;
+    }
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.leftbarChat_wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 5px;
+    background-color: rgb(243, 243, 243);
+    max-height: 36px;
+    min-height: 36px;
+    border-bottom: 1px solid rgb(182, 181, 181);
+    transition: .3s ease-in-out;
+
+    .left {
+        margin-right: 8px;
+        Avatar {
+            cursor: pointer;
+        }
+    }
+    .right {
+        display: flex; 
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        .name {
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        .description {
+            color: rgb(51, 51, 51);
+            width: 180px;
+            white-space: nowrap;
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.leftbarChat_wrapper:hover {
+    background-color: rgb(226, 226, 226);
+}

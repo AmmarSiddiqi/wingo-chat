@@ -1,0 +1,26 @@
+.chat_header {
+    padding: 10px;
+    display: flex;
+    background: rgb(251,253,254);
+    background: linear-gradient(90deg, rgba(251,253,254,1) 32%, rgba(225,245,249,1) 62%);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    .chat_header > * {
+        flex: 1 1 100%;
+    }
+    .chat_details {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .chat_info {
+            margin-left: 10px;
+            p {
+                color: gray;
+                font-size: 14px;
+            }
+        }
+    }
+}

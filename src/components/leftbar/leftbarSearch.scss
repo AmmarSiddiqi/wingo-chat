@@ -1,0 +1,30 @@
+.search_wrapper {
+    background-color: #e9e8e8;
+    margin-right: 0px;
+    padding: 10px;
+    width: auto;
+    height: 32x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .search_bar {
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        height: 28px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        .MuiSvgIcon-root {
+            color: gray;
+            padding-left: 8px;
+        }
+        .search_input_feild {
+            border: none;
+            margin-left: 10px;
+        }
+        input:focus {
+            outline: none;
+        }
+    }
+}
